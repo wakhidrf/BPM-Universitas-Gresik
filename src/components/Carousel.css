@@ -1,0 +1,27 @@
+.carousel-container {
+  margin-bottom: 20px;
+  /* Sesuaikan lebar dan tinggi carousel sesuai kebutuhan */
+  width: 100%;
+  max-width: 600px; /* Contoh batas lebar */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Batasi tinggi gambar carousel */
+  object-fit: contain; /* Menjaga rasio aspek gambar */
+}
+
+.carousel-placeholder {
+  background-color: #add8e6; /* Warna biru muda, sesuaikan */
+  height: 200px; /* Tinggi placeholder */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: #333;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}

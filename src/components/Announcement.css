@@ -1,0 +1,13 @@
+.announcement-card {
+  background-color: #add8e6; /* Warna biru muda, sesuaikan */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-card h2 {
+  color: #333;
+  margin-bottom: 15px;
+}

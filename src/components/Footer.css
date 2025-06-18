@@ -1,0 +1,29 @@
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  font-size: 0.9em;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+.instagram-link {
+  display: inline-block; /* Agar bisa diatur margin/padding */
+  margin-bottom: 10px; /* Jarak antara logo dan teks copyright */
+  line-height: 0; /* Menghilangkan spasi ekstra di bawah gambar */
+}
+
+.instagram-logo {
+  width: 30px; /* Ukuran logo Instagram, sesuaikan */
+  height: auto;
+  transition: transform 0.2s ease-in-out; /* Efek hover */
+}
+
+.instagram-logo:hover {
+  transform: scale(1.1); /* Sedikit membesar saat dihover */
+}
+
+.footer p {
+  margin: 5px 0;
+}

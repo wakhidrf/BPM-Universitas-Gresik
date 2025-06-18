@@ -1,0 +1,24 @@
+.app-container {
+  background-image: url('./assets/pictures/background/background.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Menjaga background tetap saat scroll */
+  min-height: 100vh; /* Memastikan background menutupi seluruh tinggi viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Padding keseluruhan untuk konten */
+}
+
+.main-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Sedikit transparan agar background terlihat */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%; /* Sesuaikan lebar konten utama */
+  max-width: 1000px; /* Batasi lebar maksimal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Tambahkan styling dasar untuk komponen lain di sini atau di file CSS masing-masing */
