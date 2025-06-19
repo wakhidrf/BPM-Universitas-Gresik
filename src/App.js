@@ -11,14 +11,14 @@ import Footer from './components/Footer';
 
 function App() {
   const informationImages = [
-    require('./assets/pictures/informations/info1.png'),
-    require('./assets/pictures/informations/info2.png'),
+    require('./assets/pictures/informations/info1.webp'),
+    require('./assets/pictures/informations/info2.webp'),
     // ... tambahkan semua gambar informasi Anda
   ];
 
   const documentationImages = [
-    require('./assets/pictures/documentations/doc1.png'),
-    require('./assets/pictures/documentations/doc2.png'),
+    require('./assets/pictures/documentations/doc1.webp'),
+    require('./assets/pictures/documentations/doc2.webp'),
     // ... tambahkan semua gambar dokumentasi Anda
   ];
 
